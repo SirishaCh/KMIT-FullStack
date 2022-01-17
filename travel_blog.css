@@ -1,0 +1,44 @@
+/* stylelint-disable selector-list-comma-newline-after */
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+.blog-header {
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.blog-header-text {
+    font-weight: bolder;
+    font-family: 'Lucida Handwriting';
+}
+
+.btn-outline-dark {
+    font-family: 'Lucida Handwriting';
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.places-list {
+    font-family: 'italic';
+    font-weight: bolder;
+    font-size: 1.75rem;
+}
+
+.nav-link {
+    font-family: 'Lucida Handwriting';
+    font-weight: bolder;
+    color: black;
+}
+
+/*Footer*/
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 0.05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
