@@ -10,16 +10,13 @@ if (s == 2 && s <= sp) {
     s++;
 }
 
-for (let i = s; i < sp; i++) {
-    counter = 0;
+for (let i = s; i < sp; i++, counter = 0) {
     for (let j = 2; j <= i; j++) {
         if (i % j == 0) counter++;
     }
     if (counter == 1) a.push(i);
 }
 
-for (let b = 0; b < a.length; b = b + 2) {
-    c = c + a[b] * a[b];
-}
+for (let b = 0; b < a.length; b = b + 2) c = c + a[b] * a[b];
 
 console.log(c);

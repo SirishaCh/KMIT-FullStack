@@ -1,15 +1,13 @@
 // Online Javascript Editor for free
 // Write, Edit and Run your Javascript code using JS Online Compiler
-let n = 16;
+let n = 11;
 let c = [];
-let cum,
-    cum1,
-    z = 0,
+let cum = 0,
+    cum1 = 0,
     counter = 0;
 let flag = false;
 
-for (let i = 2; i < n; i++) {
-    counter = 0;
+for (let i = 2; i < n; i++, counter = 0) {
     for (let j = 2; j <= i; j++) {
         if (i % j == 0) counter++;
     }
