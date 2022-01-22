@@ -1,3 +1,5 @@
+/* Write a program to print sum of squares of alternative prime numbers between any
+two numbers entered by user? */
 let s = 2;
 let sp = 7;
 let counter,

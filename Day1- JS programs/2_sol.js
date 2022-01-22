@@ -1,5 +1,10 @@
-// Online Javascript Editor for free
-// Write, Edit and Run your Javascript code using JS Online Compiler
+/* Given a number 'n';, Program to check if it can be written as sum of first few prime
+numbers. Print ‘Yes’ if 'n''; can be written as first few prime numbers and ‘No’
+otherwise.
+For example,
+if n is 5 then print ‘Yes’ as it can be written as 2+3,
+if n is 41 then print ‘Yes’ as it can be written as 2 + 3 + 5 + 7 + 11 + 13
+if n is 11 then print &#39;No&#39; as it cannot be written as sum of first few prime numbers.*/
 let n = 11;
 let c = [];
 let cum = 0,
