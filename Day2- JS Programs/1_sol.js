@@ -9,3 +9,15 @@ Sample Input-1: 3
 Sample Output-1: [0, 1, 1, 2]
 Sample Input-2: 6
 Sample Output-2: [0, 1, 1, 2, 1, 2, 2]*/
+
+let n = 10;
+let binary = [];
+let output = [];
+for (let i = 0; i <= n; i++) {
+    binary = i.toString(2);
+    let regex = new RegExp(1, 'g');
+    let y = binary.match(regex);
+    if (y == null) output.push(0);
+    else output.push(y.length);
+}
+console.log(output);
