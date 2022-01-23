@@ -25,23 +25,23 @@ row-3: ===
 row-4: ==
 Only 3 rows satisfy the condition.*/
 
-let input = 4;
+let input = 11;
 let input1 = input;
-let j = 1;
+let j = 0;
 let counter = 0;
 
 if (input == 0) console.log(0);
 
-for (let i = 1; input1 > 0; i++, j = 1) {
-    if (input1 == 1) {
-        console.log('=');
+for (let i = 1; input1 > 0; i++, j = 0) {
+    if (input1 < i) {
+        console.log('='.repeat(input1));
         break;
     }
-    while (j <= i) {
+    while (j < i) {
         j++;
     }
-    input1 -= j - 1;
-    console.log('='.repeat(j - 1));
+    console.log('='.repeat(j));
+    input1 -= j;
     counter++;
 }
 
